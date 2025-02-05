@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Web Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+
+        table, th, td {
+            border: 1px solid black;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: center;
+        }
+
+        form {
+            margin: 20px 0;
+        }
+
+        input[type="text"], input[type="email"], textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+
+        .audio-container {
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Welcome to My Personal Web Page</h1>
+</header>
+
+<section>
+    <h2>About Me</h2>
+    <p>Hello! I am ABS, a passionate web developer. I love coding, traveling, and photography. This is my personal page where I share a bit about myself.</p>
+    
+    <h3>My Hobbies</h3>
+    <ul>
+        <li>Web Development</li>
+        <li>Traveling</li>
+        <li>Photography</li>
+    </ul>
+    
+    <h3>My Favorite Places</h3>
+    <table>
+        <tr>
+            <th>Place</th>
+            <th>Country</th>
+            <th>Reason to Love</th>
+        </tr>
+        <tr>
+            <td>Paris</td>
+            <td>France</td>
+            <td>The culture, food, and architecture</td>
+        </tr>
+        <tr>
+            <td>Tokyo</td>
+            <td>Japan</td>
+            <td>The technology, food, and history</td>
+        </tr>
+        <tr>
+            <td>New York City</td>
+            <td>USA</td>
+            <td>The energy and diversity</td>
+        </tr>
+    </table>
+</section>
+
+<section>
+    <h2>Contact Me</h2>
+    <form action="#" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <input type="submit" value="Send Message">
+    </form>
+</section>
+
+<section>
+    <h2>Listen to My Favorite Music</h2>
+    <div class="audio-container">
+        <audio controls>
+            <source src="Pufino - Enlivening (freetouse.com).mp3" type="audio/mp3">
+            Your browser does not support the audio element.
+        </audio>
+    </div>
+</section>
+
+<section>
+    <h2>Gallery</h2>
+    <p>Here are some of my favorite photos:</p>
+    <img src="test.jpg" alt="Photo 1" width="300">
+    <img src="test2.jpg" alt="Photo 2" width="300">
+    <img src="test3.jpg" alt="Photo 3" width="300">
+</section>
+
+</body>
+</html>
